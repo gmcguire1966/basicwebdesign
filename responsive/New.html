@@ -1,100 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Star Wars: New TV Shows</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      background-color: #000;
-      color: #fff;
-    }
-
-    header {
-      background: url('https://lumiere-a.akamaihd.net/v1/images/starwars-logo_tall_3ecb3037.png?region=0%2C0%2C1536%2C864') center no-repeat;
-      background-size: contain;
-      height: 250px;
-    }
-
-    .content {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #ffe81f;
-      text-align: center;
-    }
-
-    .show {
-      margin: 2rem 0;
-      padding: 1rem;
-      border: 1px solid #333;
-      background-color: #111;
-      border-radius: 8px;
-    }
-
-    .show img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    .show h2 {
-      color: #ffe81f;
-      margin-top: 1rem;
-    }
-
-    .footer {
-      text-align: center;
-      margin-top: 4rem;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
-
-    a {
-      color: #00bfff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars: Trilogy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 <body>
-  <header></header>
+   <div id="container">
+    <header>
+        <img id="banner" src="images/SW1.jpg" alt="Star Wars Header">
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="charecters.html">Characters</a></li>
+            <li><a href="trilogy.html">Trilogy</a></li>
+            <li><a href="5.html">New</a></li>
+        
+        </ul>
+    </nav>
+    <main>
+         <h1>Star Wars Trilogy</h1>
 
-  <div class="content">
-    <h1>Latest Star Wars TV Shows</h1>
+         <h2>Overview:</h2>
+         <hr>
+         <section id="multi_col">
+            <div class="col">
+               <h3>1. Episode IV: A New Hope (1977)</h3>
+         <img class="movie_post" src="images/SW3.jpg" alt="StarWarsNewHope">
+         <p>Luke Skywalker, a humble farm boy on Tatooine, discovers a message from Princess Leia hidden
+             in a droid named R2-D2. Guided by Jedi Master Obi-Wan Kenobi, Luke joins forces with smuggler 
+             Han Solo and Chewbacca to rescue Leia and deliver the Death Star plans to the Rebel Alliance. 
+             The film climaxes with a thrilling attack on the Death Star,
+             where Luke uses the Force to deliver a direct hit, destroying the superweapon.</p>  
+            </div>
+            <hr>
+             <div class="col">
+               <h3>2. Episode V: The Empire Strikes Back (1980)</h3>   
+          <img class="movie_post" src="images/SW1.jpg" alt="EpisodeV:TheEmpireStrikesBack1980">
+          <p>The Rebel Alliance suffers a crushing defeat on the ice planet Hoth, forcing Luke to seek 
+            Jedi training from the mysterious Yoda on Dagobah. Meanwhile, Darth Vader relentlessly pursues the Rebels, 
+            culminating in a shocking revelation: Vader is Luke's father. 
+            As Han is captured and Leia fights to save him, the galaxy stands on the brink of darkness.</p> 
+             </div>
+             <hr>
+            <div class="col">
+              <h3>3. Episode VI: Return of the Jedi (1983)</h3>
+            <img class="movie_post" src="images/SW2.jpg" alt="EpisodeVI:ReturnoftheJedi1983">
+            <p>In the thrilling conclusion, the Rebels launch a final assault on the Empire, aiming to destroy a second Death Star. 
+                Luke confronts Vader and Emperor Palpatine in a battle of destiny. With Vader's redemption and the Emperor's fall, 
+                peace returns to the galaxy. 
+                The Ewoks celebrate the Empire's defeat, and Luke stands triumphant—now a true Jedi.</p>  
+            </div>
+             
+         </section>
 
-    <div class="show">
-      <img src="https://lumiere-a.akamaihd.net/v1/images/ahsoka_1x1_keyart_vertical_83a560b6.jpeg?region=0%2C0%2C1080%2C1620" alt="Ahsoka">
-      <h2>Ahsoka</h2>
-      <p>Follow Ahsoka Tano as she investigates an emerging threat to the galaxy following the fall of the Empire.</p>
-    </div>
+        
+            
+            
+              
 
-    <div class="show">
-      <img src="https://lumiere-a.akamaihd.net/v1/images/the-acolyte-key-art_f4f17f8d.jpeg?region=0%2C0%2C1080%2C1620" alt="The Acolyte">
-      <h2>The Acolyte</h2>
-      <p>A mystery-thriller that takes viewers into a galaxy of shadowy secrets and emerging dark-side powers in the final days of the High Republic era.</p>
-    </div>
+               
 
-    <div class="show">
-      <img src="https://lumiere-a.akamaihd.net/v1/images/mandalorian-keyart_16x9_bba4a728.jpeg?region=0%2C0%2C1920%2C1080" alt="The Mandalorian">
-      <h2>The Mandalorian – Season 4</h2>
-      <p>The adventures continue with Din Djarin and Grogu as they navigate new threats in the outer reaches of the galaxy.</p>
-    </div>
-  </div>
 
-  <div class="footer">
-    May the Force be with you. | <a href="https://www.starwars.com/" target="_blank">Visit StarWars.com</a>
-  </div>
+    </main>
+    <hr>
+    <footer> &copy; 2025 Star Wars Project </footer>
+   </div> 
 </body>
 </html>
