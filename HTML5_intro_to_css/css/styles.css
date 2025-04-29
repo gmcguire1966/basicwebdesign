@@ -1,9 +1,9 @@
 body{
-    background-color: brown;
+    background-color: rgb(14, 82, 17);
 }
 
 #container {
-    background-color: beige;
+    background-color: rgb(10, 64, 53);
     width: 1200px;
     margin: 20px auto;
     border: 2px solid black;
